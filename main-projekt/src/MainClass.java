@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MainClass {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ввидите количество лет стажа с приростом в каждом месяце на 5 euro :-");
+        int yourS = sc.nextInt();
+        System.out.print("Ввидите количество 10 лет стажа:-");
+        int yourT = sc.nextInt();
+        System.out.print("количество денег получаемых ежемесячной пенсии:- ");
+        System.out.println(yourS*(100+5)*yourS +" euro");
+        System.out.print(" количество бонусных денег за наждые 10 лет:-");
+
+        System.out.println(yourT / 10 * 1500 +" euro");
+        }}
